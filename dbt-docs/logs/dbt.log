@@ -299,3 +299,5 @@
 2021-10-22 12:11:06.566682 (MainThread): Press Ctrl+C to exit.
 
 
+2021-10-22 12:14:36.583008 (MainThread): Flushing usage events
+2021-10-22 12:14:38.427986 (MainThread): ctrl-c
