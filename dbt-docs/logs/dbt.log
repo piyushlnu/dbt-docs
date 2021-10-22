@@ -104,3 +104,198 @@
 2021-10-22 11:47:48.272332 (MainThread): 17:17:48 | Done.
 2021-10-22 11:47:48.273860 (MainThread): Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022E0B2E9AC0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022E0B327970>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022E0B268FD0>]}
 2021-10-22 11:47:48.274360 (MainThread): Flushing usage events
+2021-10-22 12:09:44.612676 (MainThread): Running with dbt=0.19.2
+2021-10-22 12:09:47.413784 (MainThread): running dbt with arguments Namespace(cls=<class 'dbt.task.serve.ServeTask'>, debug=False, defer=None, log_cache_events=False, log_format='default', open_browser=True, partial_parse=None, port=8080, profile=None, profiles_dir='C:\\Users\\MAQ-User\\.dbt', project_dir=None, record_timing_info=None, rpc_method=None, single_threaded=False, state=None, strict=False, target=None, test_new_parser=False, use_cache=True, use_colors=None, vars='{}', warn_error=False, which='serve', write_json=True)
+2021-10-22 12:09:47.414787 (MainThread): Tracking: tracking
+2021-10-22 12:09:47.414787 (MainThread): Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000282BAC0D190>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000282AA7AEEE0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000282BAC2D130>]}
+2021-10-22 12:09:47.938264 (MainThread): Serving docs at 0.0.0.0:8080
+2021-10-22 12:09:47.939265 (MainThread): To access from your browser, navigate to:  http://localhost:8080
+2021-10-22 12:09:47.939265 (MainThread): Press Ctrl+C to exit.
+
+
+2021-10-22 12:10:16.734681 (MainThread): Flushing usage events
+2021-10-22 12:10:18.703340 (MainThread): ctrl-c
+2021-10-22 12:10:28.472553 (MainThread): Running with dbt=0.19.2
+2021-10-22 12:10:30.244366 (MainThread): running dbt with arguments Namespace(cls=<class 'dbt.task.generate.GenerateTask'>, compile=True, debug=False, defer=None, exclude=None, log_cache_events=False, log_format='default', models=None, partial_parse=None, profile=None, profiles_dir='C:\\Users\\MAQ-User\\.dbt', project_dir=None, record_timing_info=None, rpc_method='docs.generate', selector_name=None, single_threaded=False, state=None, strict=False, target=None, test_new_parser=False, threads=None, use_cache=True, use_colors=None, vars='{}', version_check=True, warn_error=False, which='generate', write_json=True)
+2021-10-22 12:10:30.245367 (MainThread): Tracking: tracking
+2021-10-22 12:10:30.245367 (MainThread): Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001907E192D90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001900E5A6040>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001900E5A62E0>]}
+2021-10-22 12:10:30.280081 (MainThread): Partial parsing not enabled
+2021-10-22 12:10:30.304602 (MainThread): Parsing macros\adapters.sql
+2021-10-22 12:10:30.417280 (MainThread): Parsing macros\catalog.sql
+2021-10-22 12:10:30.446359 (MainThread): Parsing macros\materializations\incremental.sql
+2021-10-22 12:10:30.485362 (MainThread): Parsing macros\materializations\merge.sql
+2021-10-22 12:10:30.511859 (MainThread): Parsing macros\materializations\table.sql
+2021-10-22 12:10:30.535863 (MainThread): Parsing macros\materializations\view.sql
+2021-10-22 12:10:30.563858 (MainThread): Parsing macros\core.sql
+2021-10-22 12:10:30.609633 (MainThread): Parsing macros\adapters\common.sql
+2021-10-22 12:10:30.740272 (MainThread): Parsing macros\etc\datetime.sql
+2021-10-22 12:10:30.778112 (MainThread): Parsing macros\etc\get_custom_alias.sql
+2021-10-22 12:10:30.799702 (MainThread): Parsing macros\etc\get_custom_database.sql
+2021-10-22 12:10:30.824979 (MainThread): Parsing macros\etc\get_custom_schema.sql
+2021-10-22 12:10:30.848452 (MainThread): Parsing macros\etc\is_incremental.sql
+2021-10-22 12:10:30.871451 (MainThread): Parsing macros\etc\query.sql
+2021-10-22 12:10:30.894449 (MainThread): Parsing macros\materializations\helpers.sql
+2021-10-22 12:10:30.933777 (MainThread): Parsing macros\materializations\common\merge.sql
+2021-10-22 12:10:30.980058 (MainThread): Parsing macros\materializations\incremental\helpers.sql
+2021-10-22 12:10:30.998674 (MainThread): Parsing macros\materializations\incremental\incremental.sql
+2021-10-22 12:10:31.026688 (MainThread): Parsing macros\materializations\seed\seed.sql
+2021-10-22 12:10:31.116294 (MainThread): Parsing macros\materializations\snapshot\snapshot.sql
+2021-10-22 12:10:31.215295 (MainThread): Parsing macros\materializations\snapshot\snapshot_merge.sql
+2021-10-22 12:10:31.254407 (MainThread): Parsing macros\materializations\snapshot\strategies.sql
+2021-10-22 12:10:31.312410 (MainThread): Parsing macros\materializations\table\table.sql
+2021-10-22 12:10:31.347421 (MainThread): Parsing macros\materializations\view\create_or_replace_view.sql
+2021-10-22 12:10:31.376410 (MainThread): Parsing macros\materializations\view\view.sql
+2021-10-22 12:10:31.412475 (MainThread): Parsing macros\schema_tests\accepted_values.sql
+2021-10-22 12:10:31.433482 (MainThread): Parsing macros\schema_tests\not_null.sql
+2021-10-22 12:10:31.453534 (MainThread): Parsing macros\schema_tests\relationships.sql
+2021-10-22 12:10:31.475943 (MainThread): Parsing macros\schema_tests\unique.sql
+2021-10-22 12:10:31.492952 (MainThread): Partial parsing not enabled
+2021-10-22 12:10:31.794037 (MainThread): Acquiring new snowflake connection "model.my_new_project.my_first_dbt_model".
+2021-10-22 12:10:31.834017 (MainThread): Acquiring new snowflake connection "model.my_new_project.my_second_dbt_model".
+2021-10-22 12:10:32.035501 (MainThread): Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'ea71a72b-d629-41a6-92ab-953025a67621', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001900E6F5E50>]}
+2021-10-22 12:10:32.048529 (MainThread): write_gpickle is deprecated and will be removed in 3.0.Use ``pickle.dump(G, path, protocol)``
+2021-10-22 12:10:32.049535 (MainThread): Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'ea71a72b-d629-41a6-92ab-953025a67621', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001900E6F9820>]}
+2021-10-22 12:10:32.050527 (MainThread): Found 2 models, 4 tests, 0 snapshots, 0 analyses, 143 macros, 0 operations, 0 seed files, 0 sources, 0 exposures
+2021-10-22 12:10:32.053397 (MainThread): 
+2021-10-22 12:10:32.055098 (MainThread): Acquiring new snowflake connection "master".
+2021-10-22 12:10:32.059306 (ThreadPoolExecutor-0_0): Acquiring new snowflake connection "list_DEV_BI_EDW".
+2021-10-22 12:10:32.099502 (ThreadPoolExecutor-0_0): Using snowflake connection "list_DEV_BI_EDW".
+2021-10-22 12:10:32.099502 (ThreadPoolExecutor-0_0): On list_DEV_BI_EDW: /* {"app": "dbt", "dbt_version": "0.19.2", "profile_name": "snowflake", "target_name": "dev", "connection_name": "list_DEV_BI_EDW"} */
+
+    show terse objects in DEV_BI.EDW
+2021-10-22 12:10:32.099502 (ThreadPoolExecutor-0_0): Opening a new connection, currently in state init
+2021-10-22 12:10:34.584693 (ThreadPoolExecutor-0_0): SQL status: SUCCESS 186 in 2.49 seconds
+2021-10-22 12:10:34.603688 (ThreadPoolExecutor-0_0): On list_DEV_BI_EDW: Close
+2021-10-22 12:10:35.343336 (MainThread): 17:40:35 | Concurrency: 10 threads (target='dev')
+2021-10-22 12:10:35.345362 (MainThread): 17:40:35 | 
+2021-10-22 12:10:35.357342 (Thread-1): Began running node model.my_new_project.my_first_dbt_model
+2021-10-22 12:10:35.358404 (Thread-1): Acquiring new snowflake connection "model.my_new_project.my_first_dbt_model".
+2021-10-22 12:10:35.359821 (Thread-1): Compiling model.my_new_project.my_first_dbt_model
+2021-10-22 12:10:35.365852 (Thread-1): Writing injected SQL for node "model.my_new_project.my_first_dbt_model"
+2021-10-22 12:10:35.367849 (Thread-1): finished collecting timing info
+2021-10-22 12:10:35.368847 (Thread-1): finished collecting timing info
+2021-10-22 12:10:35.369849 (Thread-1): Finished running node model.my_new_project.my_first_dbt_model
+2021-10-22 12:10:35.370850 (Thread-3): Began running node model.my_new_project.my_second_dbt_model
+2021-10-22 12:10:35.371847 (Thread-4): Began running node test.my_new_project.not_null_my_first_dbt_model_id
+2021-10-22 12:10:35.371847 (Thread-5): Began running node test.my_new_project.unique_my_first_dbt_model_id
+2021-10-22 12:10:35.372849 (Thread-3): Acquiring new snowflake connection "model.my_new_project.my_second_dbt_model".
+2021-10-22 12:10:35.374852 (Thread-4): Acquiring new snowflake connection "test.my_new_project.not_null_my_first_dbt_model_id".
+2021-10-22 12:10:35.374852 (Thread-5): Acquiring new snowflake connection "test.my_new_project.unique_my_first_dbt_model_id".
+2021-10-22 12:10:35.375856 (Thread-3): Compiling model.my_new_project.my_second_dbt_model
+2021-10-22 12:10:35.376906 (Thread-4): Compiling test.my_new_project.not_null_my_first_dbt_model_id
+2021-10-22 12:10:35.376906 (Thread-5): Compiling test.my_new_project.unique_my_first_dbt_model_id
+2021-10-22 12:10:35.381909 (Thread-3): Writing injected SQL for node "model.my_new_project.my_second_dbt_model"
+2021-10-22 12:10:35.402163 (Thread-4): Writing injected SQL for node "test.my_new_project.not_null_my_first_dbt_model_id"
+2021-10-22 12:10:35.417742 (Thread-5): Writing injected SQL for node "test.my_new_project.unique_my_first_dbt_model_id"
+2021-10-22 12:10:35.420740 (Thread-3): finished collecting timing info
+2021-10-22 12:10:35.420740 (Thread-3): finished collecting timing info
+2021-10-22 12:10:35.422097 (Thread-3): Finished running node model.my_new_project.my_second_dbt_model
+2021-10-22 12:10:35.422097 (Thread-4): finished collecting timing info
+2021-10-22 12:10:35.423117 (Thread-5): finished collecting timing info
+2021-10-22 12:10:35.424123 (Thread-4): finished collecting timing info
+2021-10-22 12:10:35.424123 (Thread-7): Began running node test.my_new_project.not_null_my_second_dbt_model_id
+2021-10-22 12:10:35.425118 (Thread-8): Began running node test.my_new_project.unique_my_second_dbt_model_id
+2021-10-22 12:10:35.425118 (Thread-5): finished collecting timing info
+2021-10-22 12:10:35.426126 (Thread-4): Finished running node test.my_new_project.not_null_my_first_dbt_model_id
+2021-10-22 12:10:35.427128 (Thread-7): Acquiring new snowflake connection "test.my_new_project.not_null_my_second_dbt_model_id".
+2021-10-22 12:10:35.428128 (Thread-8): Acquiring new snowflake connection "test.my_new_project.unique_my_second_dbt_model_id".
+2021-10-22 12:10:35.429118 (Thread-5): Finished running node test.my_new_project.unique_my_first_dbt_model_id
+2021-10-22 12:10:35.429118 (Thread-7): Compiling test.my_new_project.not_null_my_second_dbt_model_id
+2021-10-22 12:10:35.430168 (Thread-8): Compiling test.my_new_project.unique_my_second_dbt_model_id
+2021-10-22 12:10:35.438119 (Thread-7): Writing injected SQL for node "test.my_new_project.not_null_my_second_dbt_model_id"
+2021-10-22 12:10:35.444124 (Thread-8): Writing injected SQL for node "test.my_new_project.unique_my_second_dbt_model_id"
+2021-10-22 12:10:35.446127 (Thread-7): finished collecting timing info
+2021-10-22 12:10:35.447127 (Thread-7): finished collecting timing info
+2021-10-22 12:10:35.447394 (Thread-7): Finished running node test.my_new_project.not_null_my_second_dbt_model_id
+2021-10-22 12:10:35.447394 (Thread-8): finished collecting timing info
+2021-10-22 12:10:35.447394 (Thread-8): finished collecting timing info
+2021-10-22 12:10:35.448601 (Thread-8): Finished running node test.my_new_project.unique_my_second_dbt_model_id
+2021-10-22 12:10:35.452632 (MainThread): Connection 'master' was properly closed.
+2021-10-22 12:10:35.452632 (MainThread): Connection 'list_DEV_BI_EDW' was properly closed.
+2021-10-22 12:10:35.452632 (MainThread): Connection 'model.my_new_project.my_first_dbt_model' was properly closed.
+2021-10-22 12:10:35.452632 (MainThread): Connection 'model.my_new_project.my_second_dbt_model' was properly closed.
+2021-10-22 12:10:35.452632 (MainThread): Connection 'test.my_new_project.not_null_my_first_dbt_model_id' was properly closed.
+2021-10-22 12:10:35.452632 (MainThread): Connection 'test.my_new_project.unique_my_first_dbt_model_id' was properly closed.
+2021-10-22 12:10:35.453597 (MainThread): Connection 'test.my_new_project.not_null_my_second_dbt_model_id' was properly closed.
+2021-10-22 12:10:35.453597 (MainThread): Connection 'test.my_new_project.unique_my_second_dbt_model_id' was properly closed.
+2021-10-22 12:10:35.464589 (MainThread): 17:40:35 | Done.
+2021-10-22 12:10:35.470717 (MainThread): Acquiring new snowflake connection "generate_catalog".
+2021-10-22 12:10:35.471663 (MainThread): 17:40:35 | Building catalog
+2021-10-22 12:10:35.476664 (ThreadPoolExecutor-1_0): Acquiring new snowflake connection "DEV_BI.information_schema".
+2021-10-22 12:10:35.498668 (ThreadPoolExecutor-1_0): Using snowflake connection "DEV_BI.information_schema".
+2021-10-22 12:10:35.499666 (ThreadPoolExecutor-1_0): On DEV_BI.information_schema: /* {"app": "dbt", "dbt_version": "0.19.2", "profile_name": "snowflake", "target_name": "dev", "connection_name": "DEV_BI.information_schema"} */
+
+    
+      with tables as (
+
+          select
+              table_catalog as "table_database",
+              table_schema as "table_schema",
+              table_name as "table_name",
+              table_type as "table_type",
+              comment as "table_comment",
+
+              -- note: this is the _role_ that owns the table
+              table_owner as "table_owner",
+
+              'Clustering Key' as "stats:clustering_key:label",
+              clustering_key as "stats:clustering_key:value",
+              'The key used to cluster this table' as "stats:clustering_key:description",
+              (clustering_key is not null) as "stats:clustering_key:include",
+
+              'Row Count' as "stats:row_count:label",
+              row_count as "stats:row_count:value",
+              'An approximate count of rows in this table' as "stats:row_count:description",
+              (row_count is not null) as "stats:row_count:include",
+
+              'Approximate Size' as "stats:bytes:label",
+              bytes as "stats:bytes:value",
+              'Approximate size of the table as reported by Snowflake' as "stats:bytes:description",
+              (bytes is not null) as "stats:bytes:include",
+
+              'Last Modified' as "stats:last_modified:label",
+              to_varchar(convert_timezone('UTC', last_altered), 'yyyy-mm-dd HH24:MI'||'UTC') as "stats:last_modified:value",
+              'The timestamp for last update/change' as "stats:last_modified:description",
+              (last_altered is not null and table_type='BASE TABLE') as "stats:last_modified:include"
+
+          from DEV_BI.INFORMATION_SCHEMA.tables
+
+      ),
+
+      columns as (
+
+          select
+              table_catalog as "table_database",
+              table_schema as "table_schema",
+              table_name as "table_name",
+
+              column_name as "column_name",
+              ordinal_position as "column_index",
+              data_type as "column_type",
+              comment as "column_comment"
+
+          from DEV_BI.INFORMATION_SCHEMA.columns
+      )
+
+      select *
+      from tables
+      join columns using ("table_database", "table_schema", "table_name")
+      where (upper("table_schema") = upper('edw'))
+      order by "column_index"
+2021-10-22 12:10:35.499666 (ThreadPoolExecutor-1_0): Opening a new connection, currently in state init
+2021-10-22 12:10:47.208138 (ThreadPoolExecutor-1_0): SQL status: SUCCESS 3982 in 11.71 seconds
+2021-10-22 12:10:51.264081 (ThreadPoolExecutor-1_0): On DEV_BI.information_schema: Close
+2021-10-22 12:10:55.368574 (MainThread): 17:40:55 | Catalog written to C:\Users\MAQ-User\Documents\GitHub\dbt-docs\dbt-docs\target\catalog.json
+2021-10-22 12:10:55.375571 (MainThread): Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001900E50C280>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001900E6F0580>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001900E6F0760>]}
+2021-10-22 12:10:55.375571 (MainThread): Flushing usage events
+2021-10-22 12:10:56.925773 (MainThread): Connection 'generate_catalog' was properly closed.
+2021-10-22 12:10:56.925773 (MainThread): Connection 'DEV_BI.information_schema' was properly closed.
+2021-10-22 12:11:05.202147 (MainThread): Running with dbt=0.19.2
+2021-10-22 12:11:06.562681 (MainThread): running dbt with arguments Namespace(cls=<class 'dbt.task.serve.ServeTask'>, debug=False, defer=None, log_cache_events=False, log_format='default', open_browser=True, partial_parse=None, port=8080, profile=None, profiles_dir='C:\\Users\\MAQ-User\\.dbt', project_dir=None, record_timing_info=None, rpc_method=None, single_threaded=False, state=None, strict=False, target=None, test_new_parser=False, use_cache=True, use_colors=None, vars='{}', warn_error=False, which='serve', write_json=True)
+2021-10-22 12:11:06.563683 (MainThread): Tracking: tracking
+2021-10-22 12:11:06.563683 (MainThread): Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E4F28CA760>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E4F28CA2B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E4F287A220>]}
+2021-10-22 12:11:06.565683 (MainThread): Serving docs at 0.0.0.0:8080
+2021-10-22 12:11:06.566682 (MainThread): To access from your browser, navigate to:  http://localhost:8080
+2021-10-22 12:11:06.566682 (MainThread): Press Ctrl+C to exit.
+
+
